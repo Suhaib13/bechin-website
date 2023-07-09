@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.bg-body-tertiary {
+    direction: rtl;
+    background: #fff !important;
+}
+a.navbar-brand img {
+    width: 200px;
+}
+.hero {
+    background-image: linear-gradient(45deg, #000000c7, transparent),url(../img/hero.jpg);
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+}
+.hero p {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    line-height: 553px;
+    font-weight: bolder;
+    font-family: 'Changa', sans-serif;
+}
+section#about-us {
+    width: 100%;
+    height: 500px;
+    background-color: #f7f4ef;
+}
+section#about-us img {
+    float: right;
+    height: 423px;
+    margin-right: 27px;
+}
+section#about-us h1 {
+    font-family: arial;
+    font-weight: bolder;
+    float: right;
+}
+p.about-dat {
+    text-align: right;
+    font-family: cairo , sans-serif;
+    font-size: 29px;
+    width: 50%;
+    float: right;
+    margin-right: -89px;
+    margin-top: 10px;
+    line-height: 87px;
+}
+section#about-us button {
+    position: relative;
+    top: 371px;
+    width: 166px;
+    text-align: center;
+    border: 0;
+    background: #ef7625;
+    color: #fff;
+    font-family: changa , sans-serif;
+    height: 50px;
+    float: right;
+    border-radius: 50px;
+    margin-right: -699px;
+}
+section#why {
+    width: 100%;
+    height: 520px;
+}
+section#why img {
+    float: right;
+    height: 423px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+section#why h1 {
+    float: right;
+    font-family: arial;
+    font-weight: bolder;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+section#why p {
+    float: right;
+    font-family: cairo,sans-serif;
+    font-size: 29px;
+    width: 50%;
+    margin-right: 31px;
+    line-height: 87px;
+    text-align: right;
+}
+section#map {
+    background-color: #f7f4ef;
+    height: 320px;
+}
+section#map iframe {
+    border: 5px solid #000;
+}
+section#map iframe {
+    border: 13px solid #522079;
+    border-radius: 9px;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #24211c;
+    color: white;
+    text-align: center;
+    line-height: 86px;
+    font-size: 30px;
+    font-family: arial;
+    position: relative;
+}
